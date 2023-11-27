@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Include Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+    <link rel="stylesheet" href="studentlogin.css">
+
+    <!-- Firebase configuration -->
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyB5-ow4YS3r98QIcfMyT4JLJJmzjDfmCbc",
+            authDomain: "authentication-608f0.firebaseapp.com",
+            projectId: "authentication-608f0",
+            storageBucket: "authentication-608f0.appspot.com",
+            messagingSenderId: "574744795723",
+            appId: "1:574744795723:web:aedc90dce5a85278a58bce",
+            measurementId: "G-EBFQEFYH2P"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+    <h1>Student Login</h1>
+    <form id="studentLoginForm">
+        <input type="text" id="email" placeholder="Email" required><br>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <button type="submit">Login</button>
+    </form>
+
+    <script src="studentLogin.js"></script>
+</body>
+</html>
