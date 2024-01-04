@@ -106,10 +106,6 @@ body{
 	margin-bottom: 10px;
 }
 .get-pro {
-	height: 60px;
-	background-size: cover;
-	background-position: center;
-	background-repeat:no-repeat;
 	position: absolute;
 	left: -80px;
 	width:80px;
@@ -117,11 +113,12 @@ body{
 	line-height: 45px;
 	font-size: 14px;
 	border-radius: 5px 0 0 5px;
-
+	background: #1A76D1;
 	text-align: center;
-	top:200px;
+	color: #fff;
+	top: 0;
 	cursor: pointer;
-
+	box-shadow: -4px 0px 5px #00000036;
 }
 .get-pro:hover{
 	
@@ -605,8 +602,8 @@ body{
 	margin-top:150px;
 }
 .slider .single-slider h1 {
-	color:black;
-	font-size: 35px;
+	color:white;
+	font-size: 38px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
@@ -766,13 +763,12 @@ body{
 	color:#fff;
 }
 .schedule .single-schedule h4{
-	font-size:20px;
+	font-size: 20px;
 	font-weight:600;
 	display:inline-block;
 	text-transform:capitalize;
 	color:#fff;
 	margin-top:13px;
-	text-align: center;
 }
 .schedule .single-schedule p{
 	color:#fff;
@@ -3557,7 +3553,7 @@ body{
 }
 .newsletter .subscribe-text p{}
 .newsletter .subscribe-form{
-	position:center;
+	position:relative;
 }
 .newsletter .common-input {
 	height: 60px;
