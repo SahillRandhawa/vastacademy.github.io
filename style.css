@@ -253,15 +253,10 @@ body{
 	padding:0;
 }
 /* Topbar */
-.header .topbar{
-	background-color:#fff;
-	border-bottom:1px solid #eee;
-}
-.header .topbar{
-	padding:15px 0;
-}
+
+
 .header .top-link{
-	float:left;
+	float:right;
 }
 .header .top-link li{
 	display:inline-block;
@@ -279,7 +274,7 @@ body{
 	color:#1A76D1;
 }
 .header .top-contact{
-	float:right;
+	float:rih;
 }
 .header .top-contact li{
 	display:inline-block;
@@ -309,6 +304,8 @@ body{
 }
 .get-quote .btn{
 	color:#fff;
+	margin-bottom: 4px;
+	width: 80%;
 }
 .header .logo {
 	float: left;
@@ -329,7 +326,7 @@ body{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     vertical-align: middle;
-    margin-left: 8px;
+    margin-left: 4px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -369,7 +366,7 @@ body{
 }
 
 .navbar.sticky-top {
-    top: 100px;
+    top: 50px;
     transition: .5s;
 	float: right;
 }
@@ -610,8 +607,8 @@ body{
 	Start Hero Area CSS
 =============================*/
 .slider .single-slider {
-	height: 600px;
-	background-size: cover;
+	height: 400px;
+	background-size:cover;
 	background-position: center;
 	background-repeat:no-repeat;
 }
@@ -663,7 +660,7 @@ body{
     position: absolute;
     top: 50%;
     width: 100%;
-	margin-top:-25px;
+	margin-top:25px;
 }
 .slider .owl-carousel .owl-nav div {
 	height: 50px;
@@ -711,21 +708,23 @@ body{
 ===============================*/
 .schedule {
 	background: #fff;
-	margin: 0;
+	margin: 50px;
 	padding: 0;
 	height: 230px;
 }
 .schedule .schedule-inner {
-	position: relative;
-	transform: translateY(-50%);
+	position:relative;
 	z-index:9;
+	
 }
 .schedule .single-schedule {
-	position: relative;
+	position: center;
 	text-align: left;
 	z-index:3;
 	border-radius:5px;
 	background:#1A76D1;
+	height:8cm;
+	width:8cm;
 	 -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -733,9 +732,9 @@ body{
     transition: all .3s ease-out 0s;
 }
 .schedule .single-schedule .inner {
-	overflow:hidden;
+	
 	position: relative;
-	padding:30px;
+	padding:20px;
 	z-index:2;
 }
 .schedule .single-schedule:before{
@@ -745,7 +744,7 @@ body{
     bottom: -10px;
     left: 0;
     right: 0;
-    margin: 0 auto;
+    margin: auto;
     width: 80%;
     height: 90%;
     background:#1A76D1;
@@ -788,7 +787,7 @@ body{
 	display:inline-block;
 	text-transform:capitalize;
 	color:#fff;
-	margin-top:13px;
+	margin-top:5px;
 	text-align: center;
 }
 .schedule .single-schedule p{
@@ -845,6 +844,10 @@ body{
 	font-weight: 400;
 	float: right;
 }
+
+
+
+
 /*=============================
 	End Schedule CSS
 ===============================*/
