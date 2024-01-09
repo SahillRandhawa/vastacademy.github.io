@@ -1,0 +1,200 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+main {
+  flex: 100%;
+  /* Set the width of the main content */
+  background-color: white;
+  /* White background color */
+}
+
+section h2 {
+  margin-bottom: 50px;
+}
+.navbar .container-fluid{
+	margin-top: 3px;
+	margin-bottom: -2px;
+	padding: 14px 20px;
+	font-size: 20px;
+  float:center;
+  text-align: center;
+	}
+
+
+.slider .carousel-inner{
+	height: 300px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+	grid-auto-rows: 350px;
+	grid-auto-columns: 50px;
+}
+
+.container .column {
+	position: relative;
+	transform: translateY(5%);
+	z-index:9;
+	}
+
+.column{
+	background-color:#1A76D1;
+	border: 2px solid #1A76D1;
+	color: white;
+	padding: 15px;
+}
+
+.column .column-image{
+	width: 100%;
+	padding: 15px 15px;
+	position: center;
+}
+
+.container .column a{
+	color: white;
+}
+
+.column h5{
+	color: white;
+}
+section h2 span {
+  padding: 10px 55px;
+  border-radius: 20px;
+  color: #fff;
+  background: #120f5e;
+  /* fallback for old browsers */
+  background: linear-gradient(to right, #f5d837, #bbb812);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.our_founder{
+  text-align: center;
+  height: 100%;
+  padding: 75px 0px;
+  min-height: 40vh;
+  background-color: ghostwhite;
+}
+.profile_img {
+  border-radius: 50%;
+}
+.profile_name {
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  margin: 20px 0px 30px 0px;
+}
+.about_content {
+  justify-content: center;
+  color: #1c1a3a;
+  font-weight: 600;
+  padding-bottom: 10px 0px 20px 0px;
+}
+
+.about_title {
+  font-size: 1.45em;
+  padding: 0px 10px;
+  color: #120f5e;
+}
+.about_us {
+  margin: 50px;
+}
+
+.fa-youtube {
+  color: #e62117;
+}
+
+.founder {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sm-handle {
+  display: flex;
+  justify-content: center;
+}
+
+.sm-handle a {
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 5px 10px;
+  background-color: rgb(125 125 125 / 25%);
+  text-decoration: none;
+}
+
+.sm-handle a:hover {
+  background-color: rgb(30 30 30 / 25%);
+}
+
+.sm-handle a i {
+  margin: 5px;
+}
+
+.yt_handle {
+  color: #e62117;
+}
+
+.linkdn_handle {
+  color: #0e76a8;
+}
+
+.insta_handle {
+  color: #dd2a7b;
+}
+
+.img-responsive {
+  max-width: 100vh;
+  height: 100vh;
+}
+
+footer {
+  display: flex;
+  overflow: hidden;
+  /* Hide overflow */
+  background-color: black;
+  /* Dark background color */
+}
+
+footer a {
+  float: left;
+  /* Make sure that the links stay side-by-side */
+  display: block;
+  /* Change the display to block, for responsive reasons (see below) */
+  color: white;
+  /* White text color */
+  text-align: center;
+  /* Center the text */
+  padding: 14px 20px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove underline */
+}
+
+.copyright {
+  color: #fff;
+  /* to align item to left */
+  margin-left: auto;
+  padding-right: 15px;
+}
+
+.flex-align-left {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 700px) {
+  footer,
+  .sm-handle,
+  nav {
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+
+  .flex-align-left {
+    margin-left: 0;
+  }
+}
